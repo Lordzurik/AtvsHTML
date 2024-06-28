@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Atv-1</h1>
+  <hr>
+  <label type="">Nome</label>
+  <br>
+  <input type="text">
+  <br>
+  <br>
+  <label for="">Data</label>
+  <br>
+  <input type="date">
+  <br>
+  <br>
+  <input id="Doce" type="radio" name="selecionar">
+  <label for="Doce">Doce</label>
+  <br>
+  <input id="Salgado" type="radio" name="selecionar" >
+  <label for="Salgado">Salgado</label>
+  <br>
+  <br>
+  <input id="Cinema" type="checkbox">
+  <label for="Cinema">Cinema</label>
+  <br>
+  <input id= "Video Game" type="checkbox">
+  <label for="Video Game">Video Game</label>
+  <br>
+  <br>
+  <input type="submit">
+  <hr>
+  
+</body>
+</html>
