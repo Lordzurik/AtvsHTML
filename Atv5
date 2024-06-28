@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="https://formsubmit.co/rafaelcs008@gmail.com"method="POST">
+  <h1>Atv-5 Formulário</h1>
+  <hr color="black">
+  <label type="">Nome</label>
+  <input type="text">
+  <br>
+  <label type="">Idade</label>
+  <input type="number">
+  <br>
+  <label type="">Numero</label>
+  <input type="number">
+  <br>
+  <h2>Qual você gosta</h2>
+  <label for="Doce"type="">Doce</label>
+  <input type="radio" name= "selecionar" id="Doce">
+  <br>
+  <label for="Salgado"type="">Salgado</label>
+  <input type="radio" name= "selecionar" id="Salgado">
+  <br>
+  <h3>Atividades</h3>
+  <label for="Futebol"type="">Futebol</label>
+  <input type="checkbox" id="Futebol">
+  <br>
+  <label for="cinema"type="">Cinema</label>
+  <input type="checkbox" id="cinema">
+  <br>
+  <label for="Video"style="font-size:11px;" type="">Video-Game</label>
+  <input type="checkbox" id="Video">
+  <br>
+  <button type="submit">Enviar</button>
+  <br>
+  <hr color="black">
+  <form/>
+</body>
+</html>
+
+
+
+COD CSS:
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(229, 225, 225);
+  
+}
+  input[type="text"],input[type="number"],input[type="radio"],input[type="checkbox"]{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding:1px;
+    margin: 3px 0;
+
+}
+  button[type = "submit"] { 
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    color: white;
+    padding:10px;
+    width: 100px;
+    display: block;
+    margin: 10px auto -16px;
+}
+  form{
+    background-color: rgb(0, 255, 132);
+    padding: 40px;
+}
+  h1,h2,h3 {
+    text-align: center;
+    margin: 0 0 10px;
+
+}
+  label {
+    display: inline-block;
+    width: 60px;
+}
+  hr{
+  margin: 10px 0 10px;
+}
+  form{
+    border: 5px solid black;
+  }
+
