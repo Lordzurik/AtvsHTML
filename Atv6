@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Atv6.css">
+</head>
+<body>
+  <div>
+    <img src="https://th.bing.com/th?id=OIP.v2Js2Ch7g4MjOMCNzRL92QHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+    <h1>Sucesso</h1>
+    <label for="Programador">Programador</label>
+    <br>
+    <input type="radio" name="Sistem" id="Programador">
+    <br>
+    <label for="Fullstack">Fullstack</label>
+    <br>
+    <input type="radio" name="Sistem" id="Fullstack">
+    <br>
+    <label for="Front-end">Front-end</label>
+    <br>
+    <input type="radio" name="Sistem" id="Front-end">
+    <br>
+    <label for="DBA">DBA</label>
+    <br>
+    <input type="radio" name="Sistem" id="DBA">
+  </div>
+</body>
+</html>
+
+COD CSS:
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  div{
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 149, 255);
+    padding: 10px;
+  }
+  button{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 1px;
+    margin: 4px;
+    background-color: aqua;
+
+  }
+  input{
+    border: 2px solid black;
+
+  }
+
+
