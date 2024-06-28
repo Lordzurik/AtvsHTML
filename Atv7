@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Atv7.css">
+</head>
+<body>
+<div>
+  <h1>Calculadora de Juros</h1>
+  <label for="">Capital Inicial:</label>
+  <input type="text">
+  <br>
+  <label for="">Taxa de Juros(%):</label>
+  <input type="text">
+  <br>
+  <label for="">Tempo (anos):</label>
+  <input type="text">
+  <br>
+  <button type="submit">Calcular Juros Simples</button>
+  <button type="submit">Calcular Juros Compostos</button>
+  <p>Resultado:</p>
+
+
+</div>
+</body>
+</html>
+
+
+COD CSS:
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+  body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://img.myloview.com/posters/abstract-blue-technology-background-with-bright-flare-700-85497772.jpg") no-repeat center;
+    background-size: cover;    
+     
+
+  }
+  div{
+    background-color: rgba(6, 112, 233, 0.014);
+    border-radius: 40px;
+    padding: 10px;
+    color: aliceblue;
+    text-shadow: 3px 3px 3px black;
+  }
+  button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+    background-color: rgba(0, 195, 255, 0.655);
+
+  }
+  input{
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  label{
+    display: inline-block;
+    width: 120px;
+    margin: 3px;
+    
+  }
+  h1{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
