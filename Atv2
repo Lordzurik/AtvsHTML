@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <table border= "1">
+    
+    <tr>
+      <th>Nome</th>
+      <td>Celso Portiole</td>
+      <td>Arnoldo Silva</td>
+    </tr>
+    
+    <tr>
+      <th>Idade</th>
+      <td align="center">47</td>
+      <td align="center">89</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+    <table border= "1">
+    
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+    <tr>
+      <td>Celso Portiole</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>Arnoldo Silva</td>
+      <td>89</td>
+    </tr>
+  </table>
+</body>
+</html>
