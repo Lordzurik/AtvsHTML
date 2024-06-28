@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Atv-3 Formulário</h1>
+  <hr>
+  <br>
+  <label type="">Nome</label>
+  <input type="text">
+  <br>
+  <label type="">Idade</label>
+  <input type="number">
+  <br>
+  <label type="">Profissão</label>
+  <input type="text">
+  <br>
+  <br>
+  <input type="submit">
+  <br>
+  <br>
+  
+  <hr>
+  
+</body>
+</html>
